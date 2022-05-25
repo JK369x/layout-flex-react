@@ -32,7 +32,6 @@ export const NavLink = styled(Link)`
     text-decoration: none;
 `
 export const FooterCon = styled.footer`
-    position: fixed;
     width: 100%;
     bottom: 0;
     text-align: center;

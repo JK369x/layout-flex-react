@@ -29,3 +29,27 @@ export const LearnMore = styled(Link)`
     margin-left: auto;
     margin-right: auto;
 ` 
+export const TeamsInfo = styled.section`
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr;
+    text-align: center;
+`
+
+export const TeamsItems = styled.div`
+    padding: 2rem;
+    background: #1f1f1f;
+    color: white;
+    border: 1px solid #000; 
+`
+
+export const TeamsBtn = styled(Link)`
+    text-decoration: none;
+    color: #000;
+    background: #fff;
+    padding: 0.5rem;
+`
+export const ImageItems = styled.img`
+   width: 150px;
+   box-shadow: 0 0 10px #333;
+   border-radius: 100%;
+`
